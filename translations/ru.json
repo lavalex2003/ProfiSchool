@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Подключение к ProfiMaktab",
+        "description": "Пожалуйста, введите данные для входа в ProfiMaktab.",
+        "data": {
+          "username": "Имя пользователя",
+          "password": "Пароль"
+        }
+      },
+      "students": {
+        "title": "ID студентов",
+        "description": "{instructions}",
+        "data": {
+          "student_ids": "ID студентов"
+        }
+      }
+    },
+    "error": {
+      "auth": "Неверное имя пользователя или пароль.",
+      "connection": "Ошибка подключения. Пожалуйста, проверьте подключение к интернету.",
+      "unknown": "Произошла непредвиденная ошибка.",
+      "invalid_student_id": "Один или несколько ID студентов недействительны."
+    },
+    "abort": {
+      "already_configured": "Эта учетная запись уже настроена."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Обновление ID студентов",
+        "description": "{instructions}",
+        "data": {
+          "student_ids": "ID студентов"
+        }
+      }
+    },
+    "error": {
+      "invalid_student_id": "Один или несколько ID студентов недействительны."
+    }
+  }
+}
