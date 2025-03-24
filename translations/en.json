@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to ProfiMaktab",
+        "description": "Please enter your ProfiMaktab login details.",
+        "data": {
+          "username": "Username",
+          "password": "Password"
+        }
+      },
+      "students": {
+        "title": "Student IDs",
+        "description": "{instructions}",
+        "data": {
+          "student_ids": "Student IDs"
+        }
+      }
+    },
+    "error": {
+      "auth": "Invalid username or password.",
+      "connection": "Connection error. Please check your internet connection.",
+      "unknown": "Unexpected error occurred.",
+      "invalid_student_id": "One or more student IDs are invalid."
+    },
+    "abort": {
+      "already_configured": "This account is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update Student IDs",
+        "description": "{instructions}",
+        "data": {
+          "student_ids": "Student IDs"
+        }
+      }
+    },
+    "error": {
+      "invalid_student_id": "One or more student IDs are invalid."
+    }
+  }
+}
