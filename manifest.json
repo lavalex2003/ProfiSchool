@@ -1,0 +1,11 @@
+{
+  "domain": "profimaktab",
+  "name": "ProfiMaktab",
+  "documentation": "https://github.com/lavalex2003/ProfiSchool",
+  "dependencies": [],
+  "codeowners": ["@lavalex2003"],
+  "requirements": ["aiohttp>=3.8.0"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "version": "0.2.0"
+}
